@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uvo-slam"
+version = "1.0.0"
+authors = [
+  { name="Redokwj" },
+]
+description = "UVO: Next-Gen Metric Visual Odometry & Autonomous Teach-and-Repeat SLAM for Tracked UGVs"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Robotics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "numpy>=1.20.0",
+    "opencv-python>=4.7.0",
+    "scipy>=1.7.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Redokwj/UVO"
+"Bug Tracker" = "https://github.com/Redokwj/UVO/issues"
